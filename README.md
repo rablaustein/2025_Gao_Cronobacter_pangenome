@@ -2,7 +2,7 @@
 
 _Cronobacter sakazakii_ is an opportunistic foodborne pathogen associated with contamination of powdered infant formula. This study explores its pangenome to uncover genetic signatures associated with isolate origins, including sample type (food, environment, clinical) and continent (Asia, Europe, North America). Scripts and data that may be used to reproduce our analysis are provided here.
 
-**Reference:** Gao M, Pradhan AK, Blaustein RA. Genomic diversity of Cronobacter sakazakii across the food system to consumers at the global scale. 2025. _International Journal of Food Microbiology_ 441, 111335. (https://doi.org/10.1016/j.ijfoodmicro.2025.111335)
+**Reference:** Gao M, Pradhan AK, Blaustein RA. Genomic diversity of Cronobacter sakazakii across the food system to consumers at the global scale. 2025. _International Journal of Food Microbiology_ 441, 111335. https://doi.org/10.1016/j.ijfoodmicro.2025.111335
 
 # Contents
 
