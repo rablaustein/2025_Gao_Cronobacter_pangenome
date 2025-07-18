@@ -1,0 +1,337 @@
+﻿Isolation_source,Sample_type,Sample_type_specific
+recal swab stool,Clinical,Clin_Stool
+cerebrospinal fluid,Clinical,Clin_Blood+CSF
+powdered infant formula,Food,Food_Powdered
+whey protein concentrate,Food,Food_Powdered
+spice,Food,Food_Dry
+soy flour,Food,Food_Powdered
+Rectal swab,Clinical,Clin_Stool
+"CSF isolate from a less than 1 month old infant, 30 wk EGA with fatal meningitis",Clinical,Clin_Blood+CSF
+nutritional drink,Food,Food_Other
+seasoning powder blend paprika onion powder garlic,Food,Food_Powdered
+throat,Clinical,Clin_Other
+throat of asymptomatic infant,Clinical,Clin_Other
+Open Formula,Food,Food_Powdered
+power lumps on fluidized bed,Environment,Env_Built
+cheese,Food,Food_Other
+Dyalisis liquid,Clinical,Clin_Other
+swab of air inlet,Environment,Env_Built
+Lactose powder,Food,Food_Powdered
+milk,Food,Food_Other
+throat from infant wth NECII,Clinical,Clin_Other
+infant powder,Food,Food_Powdered
+human gut,Clinical,Clin_Stool
+opened powdered infant formula,Food,Food_Powdered
+fennel,Food,Food_Other
+chamomile,Food,Food_Dry
+baby pacifier,Environment,Env_Built
+brain exudate,Clinical,Clin_Other
+food nursery water,Food,Food_Other
+nursery water,Food,Food_Other
+swab from food processing facility,Environment,Env_FoodFacility
+Ulu Slim Hot Spring,Environment,Env_Natural
+bronchial wash,Clinical,Clin_Other
+alimentary canal (Anthomyiidae sp.),Clinical,Clin_Other
+fried rice or noodles samples,Food,Food_Other
+cold noodles in sauce samples,Food,Food_Other
+deli meat samples,Food,Food_Other
+blood post mortem,Clinical,Clin_Blood+CSF
+alimentary canal (Lucilia cuprina),Clinical,Clin_Other
+tomato plant rhizosphere,Environment,Env_Natural
+mushroom,Food,Food_Other
+dried garlic,Food,Food_Dry
+black bean,Food,Food_Other
+dried hot pepper,Food,Food_Dry
+sorghum,Food,Food_Dry
+nut,Food,Food_Dry
+dried seaweed,Food,Food_Dry
+barley,Food,Food_Other
+food hulled seseme seed,Food,Food_Dry
+adult cereal with peach,Food,Food_Dry
+instant oatmeal with strawberries and cream,Food,Food_Other
+food walnut,Food,Food_Dry
+food whole grain corn,Food,Food_Dry
+food dried chocolate organic shake,Food,Food_Powdered
+honey powder,Food,Food_Powdered
+oregano,Food,Food_Dry
+corn flour,Food,Food_Powdered
+rice flour,Food,Food_Powdered
+eleuthero root powder,Food,Food_Powdered
+unknown food powder,Food,Food_Powdered
+liquorice,Food,Food_Dry
+environmental swab sponge powdered infant formula manufacturing plant,Environment,Env_FoodFacility
+Abdominal pus,Clinical,Clin_Other
+Ready-to-eat food,Food,Food_Other
+fly gut,Clinical,Clin_Other
+Infant Powder Formula,Food,Food_Powdered
+environmental swab sponge dairy powder manufacturing facility,Environment,Env_FoodFacility
+dried filefish,Food,Food_Dry
+soy protein,Food,Food_Powdered
+baby banana cereal,Food,Food_Dry
+water,Environment,Env_Natural
+feces,Clinical,Clin_Stool
+powder lumps after spray drying,Food,Food_Powdered
+Ground beef,Food,Food_Other
+soil,Environment,Env_Natural
+swab of drain,Environment,Env_Built
+swab of staff's sole,Environment,Env_Built
+Powdered elderly milk,Food,Food_Powdered
+Soja milk,Food,Food_Other
+Alfalfa sprouts,Food,Food_Other
+shrimp strips,Food,Food_Other
+soil polluted with engine oil,Environment,Env_Natural
+Dairy product ingredient,Food,Food_Other
+stool,Clinical,Clin_Stool
+reconstituted formula which had not been fed to infant,Food,Food_Powdered
+skin from infant with NECII,Clinical,Clin_Other
+feces from infant with NECI,Clinical,Clin_Stool
+trachea from infant with NECII,Clinical,Clin_Other
+trachea from infant with septicemia,Clinical,Clin_Other
+throat from infant with NECII,Clinical,Clin_Other
+conjunctivae of infant with NECII,Clinical,Clin_Other
+sputum,Clinical,Clin_Other
+feces from infant with NECII,Clinical,Clin_Stool
+periotenial fluid from infant with NECIII,Clinical,Clin_Other
+infant formula,Food,Food_Powdered
+powdered infant formula control,Food,Food_Powdered
+Milk powder,Food,Food_Powdered
+food sodium caseinate,Food,Food_Powdered
+cerebral spinal fluid,Clinical,Clin_Blood+CSF
+environmental dairy facility,Environment,Env_FoodFacility
+feces from infant with digestive problems,Clinical,Clin_Stool
+feces from asymptomatic infant,Clinical,Clin_Stool
+remains of reconstituted infant formula fed to infant,Food,Food_Powdered
+high protein dispersibility index (PDI) flour,Food,Food_Powdered
+environmental swab,Environment,Env_Built
+musca domestica alimentary canal,Clinical,Clin_Other
+Cat Food,Food,Food_Other
+surface,Environment,Env_Built
+semolina,Food,Food_Powdered
+grape,Food,Food_Other
+food water,Food,Food_Other
+powder infant formula,Food,Food_Powdered
+powdered infant formula reconstituted bottle,Food,Food_Powdered
+environmental swab sponge powder infant formula manufacturing facility,Environment,Env_FoodFacility
+organic soy,Food,Food_Powdered
+organic soy powder,Food,Food_Powdered
+dried cut carrot,Food,Food_Dry
+sodium caseinate,Food,Food_Powdered
+environmental swab sponge,Environment,Env_Built
+cerebrospinal fluid from a fatal case of infantile meningitis,Clinical,Clin_Blood+CSF
+botanical nutraceutical supplement,Food,Food_Other
+food production facility environmental sponge,Environment,Env_FoodFacility
+pet food,Food,Food_Other
+kitchen counter,Environment,Env_FoodFacility
+kitchen sink,Environment,Env_FoodFacility
+floor,Environment,Env_Built
+kitchen sponge,Environment,Env_FoodFacility
+refrigerator,Environment,Env_Built
+vacuum dust floor sweepings,Environment,Env_Built
+trail snack mix,Food,Food_Other
+kitchen floor,Environment,Env_FoodFacility
+footwear,Environment,Env_Built
+Breast milk,Clinical,Clin_Other
+bathroom counter,Environment,Env_Built
+blood,Clinical,Clin_Blood+CSF
+breast abscess,Clinical,Clin_Other
+water fountain basin,Environment,Env_Built
+primary hospital lab,Environment,Env_Built
+freshwater,Environment,Env_Natural
+milk powder production facility,Environment,Env_FoodFacility
+spiced meat,Food,Food_Other
+trachea,Clinical,Clin_Other
+infant with NECI,Clinical,Clin_Other
+environmental swabs taken from whey drying equipment.,Environment,Env_FoodFacility
+gut,Clinical,Clin_Stool
+fly surface (Musca domestica,Clinical,Clin_Other
+insect surface,Clinical,Clin_Other
+child's throat,Clinical,Clin_Other
+CSF isolate,Clinical,Clin_Blood+CSF
+fecal isolate from infant with meningitis,Clinical,Clin_Stool
+CSF isolate from a 1 month old infant with meningitis,Clinical,Clin_Blood+CSF
+CSF isolate of a 6 weeks old infant with non fatal brain abscess,Clinical,Clin_Blood+CSF
+Ajwan cumin seeds,Food,Food_Dry
+alimentary canal,Clinical,Clin_Other
+cold vegetables in sauce dishes samples,Food,Food_Other
+homo sapiens tracheal aspirate,Clinical,Clin_Other
+foot wound,Clinical,Clin_Other
+bone marrow,Clinical,Clin_Other
+nose,Clinical,Clin_Other
+Brain abscess fluid,Clinical,Clin_Other
+radish sprouts,Food,Food_Other
+fly surface,Clinical,Clin_Other
+pine needle powder,Food,Food_Powdered
+fixed bed,Environment,Env_Built
+Disk sedimentation,Environment,Env_FoodFacility
+Dairy products,Food,Food_Other
+goat milk formula,Food,Food_Powdered
+Faeces or rectal swab,Clinical,Clin_Stool
+raw pet food,Food,Food_Other
+Bottled Water,Food,Food_Other
+whey powder,Food,Food_Powdered
+cookies,Food,Food_Other
+infant formula consumer container rinse,Food,Food_Powdered
+consumer liquid infant formula,Food,Food_Powdered
+Environmental swabs from a manufacturer of infant formula.,Environment,Env_FoodFacility
+environmental swab sponge from dairy facility,Environment,Env_FoodFacility
+environmental sponge,Environment,Env_Built
+feedlot,Environment,Env_Natural
+Cereal-based food (noodle) for infant,Food,Food_Other
+Milk powder plant,Environment,Env_FoodFacility
+"Food,Milk powder",Food,Food_Powdered
+nuts,Food,Food_Dry
+black rice,Food,Food_Other
+taro,Food,Food_Other
+PIF environment,Environment,Env_FoodFacility
+spices,Food,Food_Dry
+"Environment, Powder infant formula manufacturing facility",Environment,Env_FoodFacility
+"Clinical, brain",Clinical,Clin_Other
+"Clinical, cerebrospinal fluid",Clinical,Clin_Blood+CSF
+"Clinical, stool",Clinical,Clin_Stool
+powdered infant formula production environment,Environment,Env_FoodFacility
+"Clinical, Bronchial wash",Clinical,Clin_Other
+Marjoram,Food,Food_Dry
+strawberry,Food,Food_Other
+Paesley,Food,Food_Other
+Water for Irrigation,Environment,Env_Natural
+Parsley,Food,Food_Other
+cucumber,Food,Food_Other
+Lettuce,Food,Food_Other
+Well Water,Environment,Env_Natural
+carrot,Food,Food_Other
+Sprout,Food,Food_Other
+Frozen Pea,Food,Food_Other
+"Environmental, Vacuum dust",Environment,Env_Built
+"Clinical, Blood",Clinical,Clin_Blood+CSF
+"Environmental, Milk powder production facility",Environment,Env_FoodFacility
+environmental swabs,Environment,Env_Built
+Aquatic Environment,Environment,Env_Built
+powdered infant formula (unopened),Food,Food_Powdered
+vegetable,Food,Food_Other
+sausage,Food,Food_Other
+shrimp,Food,Food_Other
+duck,Food,Food_Other
+ascites,Clinical,Clin_Other
+raw milk,Food,Food_Other
+noodles,Food,Food_Other
+bathroom environment,Environment,Env_Built
+Thyme,Food,Food_Dry
+Froxen Maize,Food,Food_Other
+Swab sample from powdered infant formula factory,Environment,Env_FoodFacility
+grain,Food,Food_Dry
+candy desert snacks,Food,Food_Other
+seeds,Food,Food_Dry
+nuts nut butter,Food,Food_Other
+sprouts,Food,Food_Other
+spice seasoning,Food,Food_Dry
+car mats,Environment,Env_Built
+bathroom floor,Environment,Env_Built
+amendments,Environment,Env_Natural
+bathroom sink,Environment,Env_Built
+hospital nursing home emp sponge,Environment,Env_Built
+opened infant formula,Food,Food_Powdered
+nasopharynx,Clinical,Clin_Other
+Pacifier,Environment,Env_Built
+Formula,Food,Food_Powdered
+Breast pump,Clinical,Clin_Other
+Opened Nursery Water,Food,Food_Other
+peanut butter,Food,Food_Other
+feeding tube from breast pump,Clinical,Clin_Other
+swab of bottle nipple,Environment,Env_Built
+water storage counter,Environment,Env_Built
+sink counter splash,Environment,Env_Built
+swab of left sink,Environment,Env_Built
+opened bottled water,Food,Food_Other
+facility environmental monitoring,Environment,Env_FoodFacility
+Sesame seed based food processing facility,Environment,Env_FoodFacility
+cerebrospinal fluid,Clinical,Clin_Blood+CSF
+CSF isolate,Clinical,Clin_Blood+CSF
+blood,Clinical,Clin_Blood+CSF
+blood,Clinical,Clin_Blood+CSF
+blood,Clinical,Clin_Blood+CSF
+blood,Clinical,Clin_Blood+CSF
+cerebrospinal fluid,Clinical,Clin_Blood+CSF
+cerebrospinal fluid,Clinical,Clin_Blood+CSF
+cerebrospinal fluid,Clinical,Clin_Blood+CSF
+cerebrospinal fluid,Clinical,Clin_Blood+CSF
+CSF isolate,Clinical,Clin_Blood+CSF
+CSF isolate,Clinical,Clin_Blood+CSF
+CSF isolate,Clinical,Clin_Blood+CSF
+recal swab stool,Clinical,Clin_Stool
+feces,Clinical,Clin_Stool
+gut,Clinical,Clin_Stool
+"Clinical, stool",Clinical,Clin_Stool
+"Clinical, stool",Clinical,Clin_Stool
+stool,Clinical,Clin_Stool
+feces,Clinical,Clin_Stool
+feces,Clinical,Clin_Stool
+feces,Clinical,Clin_Stool
+feces,Clinical,Clin_Stool
+stool,Clinical,Clin_Stool
+gut,Clinical,Clin_Stool
+swab from food processing facility,Environment,Env_FoodFacility
+environmental swab sponge powdered infant formula manufacturing plant,Environment,Env_FoodFacility
+environmental swab sponge dairy powder manufacturing facility,Environment,Env_FoodFacility
+environmental dairy facility,Environment,Env_FoodFacility
+environmental swab sponge powder infant formula manufacturing facility,Environment,Env_FoodFacility
+kitchen counter,Environment,Env_FoodFacility
+kitchen sink,Environment,Env_FoodFacility
+kitchen sponge,Environment,Env_FoodFacility
+milk powder production facility,Environment,Env_FoodFacility
+Environmental swabs from a manufacturer of infant formula.,Environment,Env_FoodFacility
+Milk powder plant,Environment,Env_FoodFacility
+"Environmental, Milk powder production facility",Environment,Env_FoodFacility
+Swab sample from powdered infant formula factory,Environment,Env_FoodFacility
+soil,Environment,Env_Natural
+freshwater,Environment,Env_Natural
+Ulu Slim Hot Spring,Environment,Env_Natural
+tomato plant rhizosphere,Environment,Env_Natural
+Water for Irrigation,Environment,Env_Natural
+Well Water,Environment,Env_Natural
+soil,Environment,Env_Natural
+freshwater,Environment,Env_Natural
+Ulu Slim Hot Spring,Environment,Env_Natural
+tomato plant rhizosphere,Environment,Env_Natural
+Water for Irrigation,Environment,Env_Natural
+Well Water,Environment,Env_Natural
+spice,Food,Food_Dry
+dried garlic,Food,Food_Dry
+dried hot pepper,Food,Food_Dry
+nut,Food,Food_Dry
+dried seaweed,Food,Food_Dry
+food walnut,Food,Food_Dry
+food whole grain corn,Food,Food_Dry
+oregano,Food,Food_Dry
+seeds,Food,Food_Dry
+spice seasoning,Food,Food_Dry
+oregano,Food,Food_Dry
+Thyme,Food,Food_Dry
+cumin seeds,Food,Food_Dry
+Breast milk,Clinical,Clin_Other
+Breast milk,Clinical,Clin_Other
+Breast milk,Clinical,Clin_Other
+Breast milk,Clinical,Clin_Other
+Breast milk,Clinical,Clin_Other
+Breast milk,Clinical,Clin_Other
+Breast milk,Clinical,Clin_Other
+Breast milk,Clinical,Clin_Other
+Breast pump,Clinical,Clin_Other
+Breast pump,Clinical,Clin_Other
+botanical nutraceutical supplement,Food,Food_Other
+botanical nutraceutical supplement,Food,Food_Other
+botanical nutraceutical supplement,Food,Food_Other
+botanical nutraceutical supplement,Food,Food_Other
+kitchen counter,Environment,Env_FoodFacility
+kitchen sink,Environment,Env_FoodFacility
+floor,Environment,Env_Built
+kitchen sponge,Environment,Env_FoodFacility
+refrigerator,Environment,Env_Built
+vacuum dust floor sweepings,Environment,Env_Built
+kitchen floor,Environment,Env_FoodFacility
+kitchen sink,Environment,Env_FoodFacility
+kitchen sink,Environment,Env_FoodFacility
+kitchen sink,Environment,Env_FoodFacility
+kitchen sponge,Environment,Env_FoodFacility
+kitchen sponge,Environment,Env_FoodFacility
+kitchen floor,Environment,Env_FoodFacility
+kitchen counter,Environment,Env_FoodFacility

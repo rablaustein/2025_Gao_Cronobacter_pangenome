@@ -1,0 +1,115 @@
+# Fine-tune model to auto-categorize metadata
+
+pip install --upgrade OpenAI
+
+import pandas as pd
+
+dataset = pd.read_csv('category_all.csv')
+
+def convert_to_gpt35_format(dataset):
+    fine_tuning_data = []
+    for _, row in dataset.iterrows():
+        json_response = '{"Sample_type": "' + row['Sample_type'] + '", "Sample_type_specific": "' + row['Sample_type_specific'] + '"}'
+        fine_tuning_data.append({
+            "messages": [
+                {"role": "user", "content": row['Isolation_source']},
+                {"role": "assistant", "content": json_response}
+            ]
+        })
+    return fine_tuning_data
+
+converted_data = convert_to_gpt35_format(dataset)
+converted_data[0]['messages']
+
+import json
+json.loads(converted_data[0]['messages'][-1]['content'])
+
+from sklearn.model_selection import train_test_split
+
+# Stratified splitting 
+train_data, val_data = train_test_split(
+    converted_data,
+    test_size=0.3,
+    stratify=dataset['Sample_type'],
+    random_state=42  # for reproducibility
+)
+
+type(train_data[0])
+
+def write_to_jsonl(data, file_path):
+    with open(file_path, 'w') as file:
+        for entry in data:
+            json.dump(entry, file)
+            file.write('\n')
+
+
+training_file_name = "train.jsonl"
+validation_file_name = "val.jsonl"
+
+write_to_jsonl(train_data, training_file_name)
+write_to_jsonl(val_data, validation_file_name)
+
+
+from openai import OpenAI
+client = OpenAI(api_key="#API key number")
+
+training_file = client.files.create(
+    file=open(training_file_name, "rb"), purpose="fine-tune"
+)
+validation_file = client.files.create(
+    file=open(validation_file_name, "rb"), purpose="fine-tune"
+)
+
+print("Training file id:", training_file.id)
+print("Validation file id:", validation_file.id)
+
+suffix_name = "category"
+
+# create fine-tune job
+response = client.fine_tuning.jobs.create(
+    training_file=training_file.id,
+    validation_file=validation_file.id,
+    model="gpt-3.5-turbo",
+    suffix=suffix_name,
+)
+response
+
+# retrive the job
+response = client.fine_tuning.jobs.retrieve("#job ID")
+response
+
+fine_tuned_model_id = response.fine_tuned_model
+print("\nFine-tuned model id:", fine_tuned_model_id)
+
+# Make predictions using the fine-tuned model
+def format_test(row):
+    formatted_message = [
+        {
+            "role": "user",
+            "content": row['Isolation_source']
+        }
+    ]
+    return formatted_message
+
+
+def predict(test_messages, fine_tuned_model_id):
+    response = client.chat.completions.create(
+        model=fine_tuned_model_id, messages=test_messages, temperature=0, max_tokens=50
+    )
+    return response.choices[0].message.content
+
+# store predictions
+def store_predictions(test_df, fine_tuned_model_id):
+    print("fine_tuned_model_id",fine_tuned_model_id)
+    test_df['Prediction'] = None
+    for index, row in test_df.iterrows():
+        test_message = format_test(row)
+        prediction_result = predict(test_message, fine_tuned_model_id)
+        test_df.at[index, 'Prediction'] = prediction_result
+    test_df.to_csv("predictions.csv")
+
+# load metadata file, revise the column name to Isolation_source
+test_df = pd.read_csv("CS_metadata.csv")
+store_predictions(test_df, fine_tuned_model_id)
+
+
